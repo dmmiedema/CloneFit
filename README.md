@@ -2,7 +2,7 @@
 Application to compare experimental clone size data withtumor growth model from Lenos et al, Nature Cell Biology 2018. Requires Matlab 2016a or later.
 
 
-# Install CloneFit app
+# Install
 A computer with internet connection, a web browser and MATLAB 2016a or a later version installed is required. The software is not computationally intensive and has no special requirements on the hardware.
 
 Install comliled CloneFit App: Download the "CloneFit.mlappinstall" from this repository. Open Matlab (version 2016a or later) and select the “Apps” tab in the left top of the screen. Click on the “Install App” button in the left top of the screen. Navigate to the download folder and select the CloneFit App for installation.  After successful installation the App can be opened from the Apps dropdown menu and is ready for usage. 
@@ -10,7 +10,7 @@ Install comliled CloneFit App: Download the "CloneFit.mlappinstall" from this re
 Instal source file: The source file of the CloneFit app ("CloneFit.mlapp") is also available in thie repository and can be used to customize the CloneFit App. The source file can be executed from the Matlab command line. When using the source file, also download the "app_num_data_cgs181026.mat" file which contains the numerical data, or generate your own numerical data using the "CGS.m" tumor growth file, available in the "Tumor-Growth-Model" repository on my GitHub profile.
 
 
-# Operate app
+# Operate
 Load experimental data
 Timing: 1 minute
 Load the experimental data by pressing the “Load experimental” button in the “Experimental data” panel. From the raw clone size data, distributions at each time point are generated and visualized in the CloneFit App. The red lines in the generated plots correspond to the model predictions using the parameter values that correspond to the slide bar values. Note that by changing the slide bar values the numerical distributions are immediately updated to the corresponding current slide bar values of the parameters.
