@@ -1,13 +1,13 @@
 # CloneFit
-Application to compare experimental clone size data withtumor growth model from Lenos et al, NCB 2018. Requires Matlab 2016a or later.
+Application to compare experimental clone size data withtumor growth model from Lenos et al, Nature Cell Biology 2018. Requires Matlab 2016a or later.
 
 
 # Install CloneFit app
 A computer with internet connection, a web browser and MATLAB 2016a or a later version installed is required. The software is not computationally intensive and has no special requirements on the hardware.
 
-Install comliled CloneFit App: Open Matlab (version 2016a or later) and select the “Apps” tab in the left top of the screen. Click on the “Install App” button in the left top of the screen. Navigate to the download folder and select the CloneFit App for installation.  After successful installation the App can be opened from the Apps dropdown menu and is ready for usage. 
+Install comliled CloneFit App: Download the "CloneFit.mlappinstall" from this repository. Open Matlab (version 2016a or later) and select the “Apps” tab in the left top of the screen. Click on the “Install App” button in the left top of the screen. Navigate to the download folder and select the CloneFit App for installation.  After successful installation the App can be opened from the Apps dropdown menu and is ready for usage. 
 
-Instal source file: The source file of the CloneFit app is also available and can be used to customize the CloneFit App. The source file can be executed from the Matlab command line. When using the source file, also download the "app_num_data_cgs181026.mat" file which contains the numerical data, or generate your own numerical data using the "CGS.m" tumor growth file, available in the "Tumor-Growth-Model" repository on my GitHub profile.
+Instal source file: The source file of the CloneFit app ("CloneFit.mlapp") is also available in thie repository and can be used to customize the CloneFit App. The source file can be executed from the Matlab command line. When using the source file, also download the "app_num_data_cgs181026.mat" file which contains the numerical data, or generate your own numerical data using the "CGS.m" tumor growth file, available in the "Tumor-Growth-Model" repository on my GitHub profile.
 
 
 # Operate app
