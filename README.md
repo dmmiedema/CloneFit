@@ -11,8 +11,8 @@ Instal source file: The source file of the CloneFit app ("CloneFit.mlapp") is al
 
 
 # Operate
-Load experimental data
-Timing: 1 minute
+Load experimental data.
+Timing: 1 minute.
 Load the experimental data by pressing the “Load experimental” button in the “Experimental data” panel. From the raw clone size data, distributions at each time point are generated and visualized in the CloneFit App. The red lines in the generated plots correspond to the model predictions using the parameter values that correspond to the slide bar values. Note that by changing the slide bar values the numerical distributions are immediately updated to the corresponding current slide bar values of the parameters.
 
 Optional 
